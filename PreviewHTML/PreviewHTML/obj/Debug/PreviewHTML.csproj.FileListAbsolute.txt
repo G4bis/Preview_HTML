@@ -1,0 +1,11 @@
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.pdb
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csprojResolveAssemblyReference.cache
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form1.resources
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
+C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
