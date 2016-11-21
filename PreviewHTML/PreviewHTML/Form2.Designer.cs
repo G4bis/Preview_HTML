@@ -39,6 +39,7 @@
             this.txt_HTML.Name = "txt_HTML";
             this.txt_HTML.Size = new System.Drawing.Size(324, 554);
             this.txt_HTML.TabIndex = 0;
+            this.txt_HTML.TextChanged += new System.EventHandler(this.txt_HTML_TextChanged);
             // 
             // lbl_html
             // 

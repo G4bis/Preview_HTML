@@ -12,7 +12,8 @@ namespace PreviewHTML
 {
     public partial class Form2 : Form
     {
-     
+        Form1 f = new Form1();
+
         public Form2()
         {
             InitializeComponent();
@@ -28,7 +29,21 @@ namespace PreviewHTML
         private void Form2_Load(object sender, EventArgs e)
         {
            
-            txt_HTML.Text = "<HTML>\r\n</HTML>"; 
+            
+        }
+
+        public void setf1(Form1 f1)
+        {
+            f = f1;
+        }
+      
+      
+
+       
+
+        private void txt_HTML_TextChanged(object sender, EventArgs e)
+        {
+            f.getbw().DocumentText = txt_HTML.Text;
         }
     }
 }
