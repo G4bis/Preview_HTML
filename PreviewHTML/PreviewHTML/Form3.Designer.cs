@@ -48,6 +48,7 @@
             this.txt_CSS.Name = "txt_CSS";
             this.txt_CSS.Size = new System.Drawing.Size(324, 537);
             this.txt_CSS.TabIndex = 1;
+            this.txt_CSS.TextChanged += new System.EventHandler(this.txt_CSS_TextChanged);
             // 
             // Form3
             // 

@@ -9,3 +9,14 @@ C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
 C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
 C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
 C:\Users\Famiglia\Desktop\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
+G:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
+G:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe
+G:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.pdb
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csprojResolveAssemblyReference.cache
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form1.resources
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
+G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache

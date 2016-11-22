@@ -28,7 +28,7 @@ namespace PreviewHTML
 
         private void Form2_Load(object sender, EventArgs e)
         {
-           
+            txt_HTML.Text = @" <head><link rel='stylesheet' type='text/css' href='C:\HTMLpreviewer\cssdoc.css'></head>";
             
         }
 

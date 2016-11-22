@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PreviewHTML
 {
@@ -15,10 +16,22 @@ namespace PreviewHTML
         
         public Form1()
         {
+            string path =@"C:\HTMLpreviewer";
             InitializeComponent();
             this.Width = ((1080*Screen.PrimaryScreen.WorkingArea.Width)/1920);
             this.Height = ((720 * Screen.PrimaryScreen.WorkingArea.Height) / 1080);
+            webBrowser1.Width = ((1040 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
+            webBrowser1.Height = ((535 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
+            webBrowser1.Location = new Point(((12 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((100 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
+            button1.Location = new Point(((270 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((48 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
+            button2.Location = new Point(((591 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((48 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             this.BackColor = Color.Gray;
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+                File.Create(@"C:\HTMLpreviewer\htmldoc.html");
+                File.Create(@"C:\HTMLpreviewer\cssdoc.css");
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,10 +51,7 @@ namespace PreviewHTML
             return webBrowser1;
         }
        
-        private void button3_Click(object sender, EventArgs e)
-        {
-            webBrowser1.DocumentText = "<html>dgg </html>";
-        }
+      
 
     
     }
