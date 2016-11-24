@@ -20,3 +20,14 @@ G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
 G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
 G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
 G:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache
+F:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
+F:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe
+F:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.pdb
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csprojResolveAssemblyReference.cache
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form1.resources
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
+F:\Preview_HTML\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache
