@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PreviewHTML</name>
+    </assembly>
+    <members>
+        <member name="F:PreviewHTML.Form1.components">
+            <summary>
+            Variabile di progettazione necessaria.
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form1.Dispose(System.Boolean)">
+            <summary>
+            Liberare le risorse in uso.
+            </summary>
+            <param name="disposing">ha valore true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
+        </member>
+        <member name="M:PreviewHTML.Form1.InitializeComponent">
+            <summary>
+            Metodo necessario per il supporto della finestra di progettazione. Non modificare
+            il contenuto del metodo con l'editor di codice.
+            </summary>
+        </member>
+        <!-- Commento XML in formato non corretto ignorato per il membro "F:PreviewHTML.Form2.f" -->
+        <member name="M:PreviewHTML.Form2.#ctor">
+            <summary>
+            costruttore del form 2 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form2.Form2_Load(System.Object,System.EventArgs)">
+            <summary>
+            imposta oltre all'icona del form , nella textbox del codice di riferimento ad un file di stile css se il file è vuoto, altrimenti carica l'ultimo file 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PreviewHTML.Form2.setf1(PreviewHTML.Form1)">
+            <summary>
+            Passa il form 1 come paramentro,per richiamare in seguito un metodo get
+            </summary>
+            <param name="f1">f1 è un parametro di tipo Form1 </param>
+        </member>
+        <member name="M:PreviewHTML.Form2.txt_HTML_TextChanged_1(System.Object,System.EventArgs)">
+            <summary>
+            Metodo per salvare su un file il codice html
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PreviewHTML.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PreviewHTML.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <!-- Commento XML in formato non corretto ignorato per il membro "F:PreviewHTML.Form3.perc" -->
+        <member name="M:PreviewHTML.Form3.#ctor">
+            <summary>
+            costruttore del form 3 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form3.setf1(PreviewHTML.Form1)">
+            <summary>
+            Passa il form 1 come paramentro,per richiamare in seguito un metodo get
+            </summary>
+            <param name="f1">f1 è un parametro di tipo Form1 </param>
+        </member>
+        <member name="M:PreviewHTML.Form3.Form3_Load(System.Object,System.EventArgs)">
+            <summary>
+            Al caricamento del form3 imposta un'icona e carica l'ultimo progetto html se già esistente
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PreviewHTML.Form3.txt_CSS_TextChanged_1(System.Object,System.EventArgs)">
+            <summary>
+            Metodo per salvare su un file il codice css
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:PreviewHTML.Form3.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form3.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:PreviewHTML.Form3.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Program.Main">
+            <summary>
+            Punto di ingresso principale dell'applicazione.
+            </summary>
+        </member>
+        <member name="T:PreviewHTML.Properties.Resources">
+            <summary>
+              Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+            </summary>
+        </member>
+        <member name="P:PreviewHTML.Properties.Resources.ResourceManager">
+            <summary>
+              Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+            </summary>
+        </member>
+        <member name="P:PreviewHTML.Properties.Resources.Culture">
+            <summary>
+              Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+              ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+            </summary>
+        </member>
+        <member name="P:PreviewHTML.Properties.Resources.ico_css">
+            <summary>
+              Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+            </summary>
+        </member>
+        <member name="P:PreviewHTML.Properties.Resources.ico_html">
+            <summary>
+              Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+            </summary>
+        </member>
+    </members>
+</doc>

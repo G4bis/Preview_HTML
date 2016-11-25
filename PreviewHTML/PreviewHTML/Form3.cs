@@ -8,17 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+///<?xml version="1.0"?>
+///<doc>
+///<assembly>
+///<name>PreviewHTML</name>
+///</assembly>
+///
 namespace PreviewHTML
 {
     public partial class Form3 : Form
     {
-   
+        /// <summary>
+        /// percorso di destinazione del file css
+        /// </summary>
         string perc = @"C:\HTMLpreviewer\cssdoc.css";
-       
+       /// <summary>
+       /// istanza di un oggetto di tipo form 1
+       /// </summary>
         Form1 f = new Form1();
      
-
+        /// <summary>
+        /// costruttore del form 3 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
+        /// </summary>
         public Form3()
         {
             InitializeComponent();
@@ -31,12 +42,21 @@ namespace PreviewHTML
             lbl_css.Location = new Point(((this.Width - lbl_css.Width) / 2), ((22 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             this.BackColor = Color.DarkCyan;
         }
+        
 
-       
+        /// <summary>
+        /// Passa il form 1 come paramentro,per richiamare in seguito un metodo get
+        /// </summary>
+        /// <param name="f1">f1 è un parametro di tipo Form1 </param>
         public void setf1(Form1 f1)
         {
             f = f1;
         }
+        /// <summary>
+        /// Al caricamento del form3 imposta un'icona e carica l'ultimo progetto html se già esistente
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form3_Load(object sender, EventArgs e)
         {
 
@@ -48,7 +68,11 @@ namespace PreviewHTML
             }
            
         }
-
+        /// <summary>
+        /// Metodo per salvare su un file il codice css
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txt_CSS_TextChanged_1(object sender, EventArgs e)
         {
             StreamReader sr = new StreamReader(@"C:\HTMLpreviewer\htmldoc.html");
@@ -65,4 +89,5 @@ namespace PreviewHTML
 
        
     }
+    ///</doc>
 }

@@ -78,3 +78,4 @@ C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\Pre
 C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
 C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
 C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
+G:\Preview_HTML\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.XML

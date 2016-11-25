@@ -9,12 +9,29 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+///<?xml version="1.0"?>
+///<doc>
+///<assembly>
+///<name>PreviewHTML</name>
+///</assembly>
 namespace PreviewHTML
 {
     public partial class Form2 : Form
     {
+       
+        /// <summary>
+        /// istanza di un oggetto di tipo form 1
+        /// </summary>
         Form1 f = new Form1();
+        /// <summary>
+        /// percorso di destinazione del file html
+        /// </summary>
         string perc = @"C:\HTMLpreviewer\htmldoc.html";
+        /// <summary>
+        /// costruttore del form 2 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
+        /// </summary>
+      
+        
         public Form2()
         {
             InitializeComponent();
@@ -27,7 +44,11 @@ namespace PreviewHTML
             lbl_html.Location = new Point(((this.Width - lbl_html.Width) / 2), ((22 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             this.BackColor = Color.DarkCyan;
         }
-
+        /// <summary>
+        /// imposta oltre all'icona del form , nella textbox del codice di riferimento ad un file di stile css se il file è vuoto, altrimenti carica l'ultimo file 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form2_Load(object sender, EventArgs e)
         {
             this.Icon = new Icon(@"Resources\HTML5_Logo_512.ico");
@@ -42,13 +63,20 @@ namespace PreviewHTML
             }
             
         }
-
+        /// <summary>
+        /// Passa il form 1 come paramentro,per richiamare in seguito un metodo get
+        /// </summary>
+        /// <param name="f1">f1 è un parametro di tipo Form1 </param>
         public void setf1(Form1 f1)
         {
             f = f1;
         }
         
-
+        /// <summary>
+        /// Metodo per salvare su un file il codice html
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txt_HTML_TextChanged_1(object sender, EventArgs e)
         {
             f.getbw().DocumentText = txt_HTML.Text;
@@ -58,6 +86,7 @@ namespace PreviewHTML
             sw.Write(txt_HTML.Text);
             sw.Close();
         }
-       
+      
     }
+    ///</doc>
 }

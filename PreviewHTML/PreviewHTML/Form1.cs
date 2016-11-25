@@ -9,11 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
+///<?xml version="1.0"?>
+///<doc>
+///<assembly>
+///<name>PreviewHTML</name>
+///</assembly>
+
 namespace PreviewHTML
 {
     public partial class Form1 : Form
     {
-       
+     /// <summary>
+        /// costruttore del form 1 , imposta le coordinate di tutti gli elementi presenti , il colore del form e crea anche la cartella di destinazione dei file html e css
+     /// </summary>
+  
         public Form1()
         {
             string path =@"C:\HTMLpreviewer";
@@ -35,7 +44,11 @@ namespace PreviewHTML
                 File.Create(@"C:\HTMLpreviewer\cssdoc.css").Close();
             }
         }
-
+        /// <summary>
+        /// Bottone per mostrare il secondo form , dove editare il codice html
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 f2 = new Form2();
@@ -45,23 +58,39 @@ namespace PreviewHTML
            
             
         }
-
+        /// <summary>
+        /// Bottone per mostrare il terzo form , dove editare codice css
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 f3 = new Form3();
             f3.setf1(this);
             f3.Show();
         }
+        /// <summary>
+        /// metodo dove si ritorna l'oggetto di tipo WebBrowser
+        /// </summary>
+        /// <returns></returns>
         public WebBrowser getbw()
         {
             return webBrowser1;
         }
-
+        /// <summary>
+        /// bottone che dimostra l'avvenuto salvataggio del file html , e il relativo percorso
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
             MessageBox.Show(@"Il file html è stato salvato,lo troverai al percorso C:\HTMLpreviewer\htmldoc.html");
         }
-
+        /// <summary>
+        /// bottone che dimostra l'avvenuto salvataggio del file css , e il relativo percorso
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button4_Click(object sender, EventArgs e)
         {
             MessageBox.Show(@"Il file css è stato salvato,lo troverai al percorso C:\HTMLpreviewer\cssdoc.css");
@@ -71,4 +100,5 @@ namespace PreviewHTML
 
     
     }
+    ///</doc>
 }
