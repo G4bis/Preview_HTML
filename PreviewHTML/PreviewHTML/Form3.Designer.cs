@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lbl_css = new System.Windows.Forms.Label();
-            this.txt_CSS = new System.Windows.Forms.TextBox();
+            this.txt_CSS = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // lbl_css
@@ -43,17 +43,18 @@
             // 
             // txt_CSS
             // 
-            this.txt_CSS.Location = new System.Drawing.Point(45, 55);
-            this.txt_CSS.Multiline = true;
+            this.txt_CSS.Location = new System.Drawing.Point(45, 81);
             this.txt_CSS.Name = "txt_CSS";
-            this.txt_CSS.Size = new System.Drawing.Size(324, 537);
+            this.txt_CSS.Size = new System.Drawing.Size(100, 96);
             this.txt_CSS.TabIndex = 1;
-            this.txt_CSS.TextChanged += new System.EventHandler(this.txt_CSS_TextChanged);
+            this.txt_CSS.Text = "";
+            this.txt_CSS.TextChanged += new System.EventHandler(this.txt_CSS_TextChanged_1);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(414, 626);
             this.Controls.Add(this.txt_CSS);
             this.Controls.Add(this.lbl_css);
@@ -70,6 +71,6 @@
         #endregion
 
         private System.Windows.Forms.Label lbl_css;
-        private System.Windows.Forms.TextBox txt_CSS;
+        private System.Windows.Forms.RichTextBox txt_CSS;
     }
 }

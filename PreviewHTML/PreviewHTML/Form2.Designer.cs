@@ -28,18 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txt_HTML = new System.Windows.Forms.TextBox();
             this.lbl_html = new System.Windows.Forms.Label();
+            this.txt_HTML = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
-            // 
-            // txt_HTML
-            // 
-            this.txt_HTML.Location = new System.Drawing.Point(45, 55);
-            this.txt_HTML.Multiline = true;
-            this.txt_HTML.Name = "txt_HTML";
-            this.txt_HTML.Size = new System.Drawing.Size(324, 554);
-            this.txt_HTML.TabIndex = 0;
-            this.txt_HTML.TextChanged += new System.EventHandler(this.txt_HTML_TextChanged);
             // 
             // lbl_html
             // 
@@ -50,14 +41,23 @@
             this.lbl_html.TabIndex = 1;
             this.lbl_html.Text = "Scrivi qui il tuo codice HTML";
             // 
+            // txt_HTML
+            // 
+            this.txt_HTML.Location = new System.Drawing.Point(37, 72);
+            this.txt_HTML.Name = "txt_HTML";
+            this.txt_HTML.Size = new System.Drawing.Size(100, 96);
+            this.txt_HTML.TabIndex = 2;
+            this.txt_HTML.Text = "";
+            this.txt_HTML.TextChanged += new System.EventHandler(this.txt_HTML_TextChanged_1);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(414, 626);
-            this.Controls.Add(this.lbl_html);
             this.Controls.Add(this.txt_HTML);
+            this.Controls.Add(this.lbl_html);
             this.Location = new System.Drawing.Point(0, 173);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -69,8 +69,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txt_HTML;
         private System.Windows.Forms.Label lbl_html;
+        private System.Windows.Forms.RichTextBox txt_HTML;
     }
 }

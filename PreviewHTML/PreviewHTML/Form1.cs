@@ -19,10 +19,10 @@ namespace PreviewHTML
             string path =@"C:\HTMLpreviewer";
             InitializeComponent();
             this.Width = ((1080*Screen.PrimaryScreen.WorkingArea.Width)/1920);
-            this.Height = ((730 * Screen.PrimaryScreen.WorkingArea.Height) / 1080);
-            webBrowser1.Width = ((1040 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
-            webBrowser1.Height = ((535 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
-            webBrowser1.Location = new Point(((12 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((100 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
+            this.Height = ((721 * Screen.PrimaryScreen.WorkingArea.Height) / 1080);
+            webBrowser1.Width = ((1038 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
+            webBrowser1.Height = ((525 * Screen.PrimaryScreen.WorkingArea.Width) / 1920);
+            webBrowser1.Location = new Point(((10 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((100 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             button1.Location = new Point(((270 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((12 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             button2.Location = new Point(((591 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((12 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             button3.Location= new Point(((270 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((48 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
