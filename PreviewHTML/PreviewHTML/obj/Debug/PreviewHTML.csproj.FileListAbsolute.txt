@@ -64,3 +64,17 @@ F:\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resou
 F:\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
 F:\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
 F:\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.pdb
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csprojResolveAssemblyReference.cache
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form1.resources
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form2.resources
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Form3.resources
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.Properties.Resources.resources
+C:\Users\andre\Desktop\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.csproj.GenerateResource.Cache
+C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\bin\Debug\PreviewHTML.exe.config
+C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.exe
+C:\Users\Famiglia\Desktop\Preview_HTML-master\Preview_HTML-master\PreviewHTML\PreviewHTML\obj\Debug\PreviewHTML.pdb

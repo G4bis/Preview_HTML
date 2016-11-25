@@ -40,7 +40,7 @@ namespace PreviewHTML
         private void Form3_Load(object sender, EventArgs e)
         {
 
-
+            this.Icon = new Icon(@"Resources\css3.ico");
             if (new FileInfo(perc).Length != 0)
             {
                 txt_CSS.Text = File.ReadAllText(perc);

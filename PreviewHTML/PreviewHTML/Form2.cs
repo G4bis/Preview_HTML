@@ -30,7 +30,7 @@ namespace PreviewHTML
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            this.Icon = new Icon(@"Resources\HTML5_Logo_512.ico");
             if (new FileInfo(perc).Length == 0)
             {
                 txt_HTML.Text = @" <head><link rel='stylesheet' type='text/css' href='C:\HTMLpreviewer\cssdoc.css'></head>";

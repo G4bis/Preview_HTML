@@ -35,17 +35,18 @@
             // lbl_css
             // 
             this.lbl_css.AutoSize = true;
-            this.lbl_css.Location = new System.Drawing.Point(131, 22);
+            this.lbl_css.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.lbl_css.Location = new System.Drawing.Point(96, 25);
             this.lbl_css.Name = "lbl_css";
-            this.lbl_css.Size = new System.Drawing.Size(134, 13);
+            this.lbl_css.Size = new System.Drawing.Size(212, 20);
             this.lbl_css.TabIndex = 0;
             this.lbl_css.Text = "Scrivi qui il tuo codice CSS";
             // 
             // txt_CSS
             // 
-            this.txt_CSS.Location = new System.Drawing.Point(45, 81);
+            this.txt_CSS.Location = new System.Drawing.Point(12, 71);
             this.txt_CSS.Name = "txt_CSS";
-            this.txt_CSS.Size = new System.Drawing.Size(100, 96);
+            this.txt_CSS.Size = new System.Drawing.Size(390, 543);
             this.txt_CSS.TabIndex = 1;
             this.txt_CSS.Text = "";
             this.txt_CSS.TextChanged += new System.EventHandler(this.txt_CSS_TextChanged_1);
