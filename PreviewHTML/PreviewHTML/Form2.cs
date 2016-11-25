@@ -25,21 +25,21 @@ namespace PreviewHTML
             this.Location = new Point(0,((182 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             txt_HTML.Location = new Point(((45 * Screen.PrimaryScreen.WorkingArea.Width) / 1920), ((55 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
             lbl_html.Location = new Point(((this.Width - lbl_html.Width) / 2), ((22 * Screen.PrimaryScreen.WorkingArea.Height) / 1080));
-            this.BackColor = Color.GreenYellow;
+            this.BackColor = Color.DarkCyan;
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-           
-            //if (new FileInfo(perc).Length == 0)
-            //{
+
+            if (new FileInfo(perc).Length == 0)
+            {
                 txt_HTML.Text = @" <head><link rel='stylesheet' type='text/css' href='C:\HTMLpreviewer\cssdoc.css'></head>";
-            //}
-            //else
-            //{
-            //    txt_HTML.Text = File.ReadAllText(perc);
-                
-            //}
+            }
+            else
+            {
+                txt_HTML.Text = File.ReadAllText(perc);
+
+            }
             
         }
 
@@ -56,5 +56,6 @@ namespace PreviewHTML
             sw.Write(txt_HTML.Text);
             sw.Close();
         }
+       
     }
 }

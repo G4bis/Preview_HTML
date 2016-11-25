@@ -37,9 +37,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(270, 42);
+            this.button1.Location = new System.Drawing.Point(270, 14);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(192, 23);
+            this.button1.Size = new System.Drawing.Size(192, 21);
             this.button1.TabIndex = 2;
             this.button1.Text = "Aggiungi Codice HTML";
             this.button1.UseVisualStyleBackColor = true;
@@ -56,7 +56,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(591, 42);
+            this.button2.Location = new System.Drawing.Point(591, 14);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 21);
             this.button2.TabIndex = 4;
@@ -66,7 +66,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(270, 71);
+            this.button3.Location = new System.Drawing.Point(270, 41);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(192, 23);
             this.button3.TabIndex = 5;
@@ -76,7 +76,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(591, 69);
+            this.button4.Location = new System.Drawing.Point(591, 41);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(192, 23);
             this.button4.TabIndex = 6;
@@ -88,6 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(1064, 681);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
