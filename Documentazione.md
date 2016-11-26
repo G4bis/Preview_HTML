@@ -1,6 +1,6 @@
-26/11/2016 l&#39
-Preview HTML l&#39
-4I1, Gruppo: Giudici, Berzi
+*26/11/2016
+*Preview HTML
+*4I1, Gruppo: Giudici, Berzi
 
 
 Il cliente richiede un software in cui venga simulata la funzione di un browser, l&#39;utente inserirà il codice HTML e CSS all&#39;interno di due campi di testo, e  il software restituirà immediatamente l&#39;anteprima della pagina web.
