@@ -1,3 +1,8 @@
+26/11/2016
+Preview HTML
+4I1, Gruppo: Giudici, Berzi
+
+
 Il cliente richiede un software in cui venga simulata la funzione di un browser, l&#39;utente inserirà il codice HTML e CSS all&#39;interno di due campi di testo, e  il software restituirà immediatamente l&#39;anteprima della pagina web.
 
 Inoltre dovrà essere possibile generare i file .HTML e .CSS tramite due appositi tasti.
@@ -8,8 +13,8 @@ Lo scopo è quello di fare imparare o provare il linguaggio HTML all&#39;utente.
 - Tipi di file utilizzati: .cs, .html, .css, .sln
 -  Le cartelle create da programma saranno create nel seguente percorso con all&#39;interno due file , di seguito due screenshot dimostrativi
 
- ![](DA METTERE!!)
- ![](DA METTERE!!)
+ ![](http://imageshack.com/a/img924/5885/kyIIF9.png)
+ ![](http://imageshack.com/a/img922/5899/kswil3.png)
  
 - Tutto il progetto con le varie versioni è stato caricato su GitHub tramite Git , nella repository [https://github.com/G4bis/Preview\_HTML.git](https://github.com/G4bis/Preview_HTML.git)  . Il programma può essere eseguito su Windows 7/8 e 10 in qualsiasi posizione del pc. Sarebbe Inoltre necessario eseguirlo come amministratore data la necessità di creare file sul pc , il che non sarebbe possibile se non si dispone dei permessi opportuni.
 
@@ -36,3 +41,16 @@ Prima schermata all&#39;avvio
  ![](http://imageshack.com/a/img923/6448/rpYlSV.jpg)
  
  Per salvare il codice HTML e CSS su file è necessario premere sugli appositi bottoni &quot;Salva HTML&quot; e &quot;Salva CSS&quot; (il file verrà messo in C:\HTMLpreviewer): ![](http://imageshack.com/a/img923/5228/5HDQDu.jpg)
+
+
+**Conclusione:**
+
+In generale il programma è intuitivo e funzionale , l&#39;interfaccia è semplice anche per un utente con poche conoscenze informatiche
+
+Il lavoro è completo e nella fase di test non sono stati trovati errori. In futuro si può sicuramente migliorare e implementare nuove funzioni , come per esempio una possibile scelta del percorso dove salvare i file , oppure caricare un progetto già esistente .
+
+**Bibliorafia**
+
+MSDN Microsoft
+
+Stack Overflow
