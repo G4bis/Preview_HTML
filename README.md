@@ -27,7 +27,7 @@ Lo scopo è quello di fare imparare o provare il linguaggio HTML all&#39;utente.
 
 **Progettazione:**
 
-Bozza dell&#39;interfaccia: ![](http://imageshack.com/a/img921/5487/EUUABZ.jpg)
+Bozza dell&#39;interfaccia: ![](http://imageshack.com/a/img923/1775/QKmgPC.jpg)
 
 **Screenshots:**
 
