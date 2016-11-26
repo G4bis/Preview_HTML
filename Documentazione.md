@@ -8,4 +8,4 @@ Lo scopo è quello di fare imparare o provare il linguaggio HTML all&#39;utente.
 - Tipi di file utilizzati: .cs, .html, .css, .sln
 -  Le cartelle create da programma saranno create nel seguente percorso con all&#39;interno due file , di seguito due screenshot dimostrativi
 
- ![](https://postimg.org/image/afp1suvd3/][img]https://s15.postimg.org/afp1suvd3/image.jpg)
+ ![](http://imageshack.com/a/img924/5306/UizhKj.jpg)
