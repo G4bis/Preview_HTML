@@ -1,5 +1,5 @@
-26/11/2016
-Preview HTML
+26/11/2016<br />
+Preview HTML<br />
 4I1, Gruppo: Giudici, Berzi
 
 
@@ -27,7 +27,7 @@ Lo scopo è quello di fare imparare o provare il linguaggio HTML all&#39;utente.
 
 **Progettazione:**
 
-Bozza dell&#39;interfaccia: ![](MA METTERE LA BOZZA!)
+Bozza dell&#39;interfaccia: ![](http://imageshack.com/a/img921/5487/EUUABZ.jpg)
 
 **Screenshots:**
 
