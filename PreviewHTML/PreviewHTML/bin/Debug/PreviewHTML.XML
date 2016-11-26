@@ -4,6 +4,45 @@
         <name>PreviewHTML</name>
     </assembly>
     <members>
+        <member name="M:PreviewHTML.Form1.#ctor">
+            <summary>
+            costruttore del form 1 , imposta le coordinate di tutti gli elementi presenti , il colore del form e crea anche la cartella di destinazione dei file html e css
+            </summary>
+        </member>
+        <member name="M:PreviewHTML.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Bottone per mostrare il secondo form , dove editare il codice html
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PreviewHTML.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Bottone per mostrare il terzo form , dove editare codice css
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PreviewHTML.Form1.getbw">
+            <summary>
+            metodo dove si ritorna l'oggetto di tipo WebBrowser
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:PreviewHTML.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            bottone che dimostra l'avvenuto salvataggio del file html , e il relativo percorso
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:PreviewHTML.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            bottone che dimostra l'avvenuto salvataggio del file css , e il relativo percorso
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
         <member name="F:PreviewHTML.Form1.components">
             <summary>
             Variabile di progettazione necessaria.
@@ -21,7 +60,16 @@
             il contenuto del metodo con l'editor di codice.
             </summary>
         </member>
-        <!-- Commento XML in formato non corretto ignorato per il membro "F:PreviewHTML.Form2.f" -->
+        <member name="F:PreviewHTML.Form2.f">
+            <summary>
+            istanza di un oggetto di tipo form 1
+            </summary>
+        </member>
+        <member name="F:PreviewHTML.Form2.perc">
+            <summary>
+            percorso di destinazione del file html
+            </summary>
+        </member>
         <member name="M:PreviewHTML.Form2.#ctor">
             <summary>
             costruttore del form 2 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
@@ -64,7 +112,16 @@
             the contents of this method with the code editor.
             </summary>
         </member>
-        <!-- Commento XML in formato non corretto ignorato per il membro "F:PreviewHTML.Form3.perc" -->
+        <member name="F:PreviewHTML.Form3.perc">
+            <summary>
+            percorso di destinazione del file css
+            </summary>
+        </member>
+        <member name="F:PreviewHTML.Form3.f">
+            <summary>
+            istanza di un oggetto di tipo form 1
+            </summary>
+        </member>
         <member name="M:PreviewHTML.Form3.#ctor">
             <summary>
             costruttore del form 3 , imposta le coordinate di tutti gli elementi presenti , e anche il colore del form
